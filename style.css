@@ -1,0 +1,295 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  font-family: inherit;
+
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  height: auto;
+  /* min-width: 980px; */
+  background-color: #3B5998;
+  color: #ffffff;
+  /* width: 1536px; */
+}
+.subContainer{
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 65%;
+  max-width: 1259px;
+}
+.container .leftArea{
+  width: 18%;
+  float: left;
+  margin-top: 17px;
+}
+.leftArea img{
+  width: 100%;
+}
+.container .rightArea{
+  width: 41%;
+  float: right;
+}
+.email{
+  width: 163px;
+  float: left;
+}
+.rightArea {
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+header .rightArea label{
+  display: inline-block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+header .rightArea input{
+  width: 149px;
+  border-color: #1d2a5b;
+  padding-bottom: 4px;
+}
+#submit{
+  background: #4267b2;
+  border: 2px solid #29487d;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius:2px;
+  padding: 2px 6px;
+  text-align:center;
+  width: auto;
+  color: #ffffff;
+  margin-top: 20px;
+}
+#submit:hover{
+  background-color: transparent;
+}
+.password{
+  width: 163px;
+  float: left;
+}
+.password a {
+  text-decoration: none;
+  color: #9cb4d8;
+  padding-top: 4px;
+  display: inline-block;
+}
+.password a:hover{
+  text-decoration: underline;
+}
+.logInBtn{
+  width: 35px;
+  float: left;
+}
+/* clear */
+.clear{
+  clear: both;
+}
+
+.section .leftArea {
+width: 520px;
+float: left;
+}
+
+main form {
+padding-bottom: 30px;
+}
+main {
+width: 100%;
+background: linear-gradient(white, #D3D8E8);
+}
+main form input, input::-webkit-input-placeholder {
+  font-size: 18px;
+  padding: 8px 10px;
+}
+.section {width: 68%;margin: 0 auto;height: auto;max-width: 1122px;}
+main .rightArea {
+float: right;
+width: 400px;
+}
+
+.fromHeading {
+/*! width: 400px; */
+font-size: 36px;
+font-weight: 600;
+margin-top: 20px;
+margin-bottom: 5px;
+font-family: arial;
+color: #333;
+}
+.fromSubHeading {
+font-size: 19px;
+color: #1d2129;
+margin-bottom: 20px;
+}
+.from1stRow {
+width: 100%;
+}
+.from1stRow input {
+width: 48%;
+padding: 8px 10px;
+border-radius: 5px;
+}
+
+#number {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+main #password {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#FirstName {
+  margin-right: 9px;
+  margin-bottom: 10px;
+}
+.day {
+
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+
+}
+.month {
+
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+
+}
+.year {
+  font-size: 13px;
+  height: 30px;
+  padding: 5px;
+}
+.birthdayHeading {
+
+  margin-bottom: 10px;
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+.genderHeading {
+margin-bottom: 10px;
+color: #90949c;
+font-size: 16px;
+font-weight: bold;
+}
+
+.birthday {
+margin-bottom: 15px;
+}
+.radio {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.radio {
+font-size: 18px;
+margin-right: 20px;
+}
+.gender {
+margin-bottom: 15px;
+}
+.terms {
+color: #777;
+font-size: 11px;
+/*! width: 316px; */
+margin: 10px 0;
+}
+.singUpBtn {
+background: linear-gradient(#79bc64, #578843);
+font-size: 19px;
+min-width: 194px;
+padding: 7px 20px;
+text-align: center;
+box-shadow: inset 0 1px 1px #a4e388;
+cursor: pointer;
+border: 1px solid;
+text-shadow: 0 1px 2px rgba(0,0,0,.5);
+border-radius: 5px;
+margin: 10px 0;
+}
+.singUpBtn:hover {
+  background: linear-gradient(#578843,#79bc64 );
+}
+
+.createPage {
+margin-top: 15px;
+}
+.paragraph {
+color: #0e385f;
+font-size: 20px;
+font-weight: bold;
+line-height: 29px;
+margin-top: 40px;
+/*! width: 450px; */
+word-spacing: -1px;
+}
+
+.footerSection {
+width: 980px;
+margin: 0 auto;
+font-size: 12px;
+color: #5E58BA;
+}
+footer {
+width: 100%;
+}
+.firstRow ul li {
+display: inline-block;
+margin-right: 12px;
+}
+.secondRow ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.secondRow {
+
+  margin: 10px 0;
+
+}
+.copyright {
+
+  margin: 20px 0;
+  color: #737373;
+
+}
+.secondRow {
+line-height: 1.3;
+  margin: 10px 0;
+
+}
+.firstRow {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #dddfe2;
+  margin-top: 70px;
+}
+#English {
+
+  color: #737373;
+
+}
+.footerList li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.far.fa-plus-square {
+  font-size: 17px;
+}
