@@ -112,26 +112,3 @@
     }
 }
 
-@media screen and (max-width:426px){
-    .subContainer {
-        width: 90%;
-    }
-    .subContainer .rightArea {
-        width: 100%;
-    }
-    .section .leftArea {
-        width: 100%;
-        text-align: left;
-    }
-    main .rightArea {
-        width: 87%;
-    }    
-    .from1stRow input {
-        width: 48%;
-    }
-   
-
-}
-@media screen and (max-width:320px){
-    
-}
