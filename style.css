@@ -158,23 +158,22 @@ main #password {
   margin-bottom: 10px;
 }
 .day {
-
   font-size: 13px;
   height: 30px;
   padding: 5px;
-
+  float: left;
 }
 .month {
-
   font-size: 13px;
   height: 30px;
   padding: 5px;
-
+  float: left;
 }
 .year {
   font-size: 13px;
   height: 30px;
   padding: 5px;
+  float: left;
 }
 .birthdayHeading {
 

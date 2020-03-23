@@ -102,13 +102,16 @@
         width: 75px;
     }
     .radio {
-        margin-right: 5px;
+        margin-right: 2px;
     }
     .fromHeading {
         font-size: 30px;
     }
     .footerSection {
        text-align: center;
+    }
+    .subContainer .rightArea {
+        width: 100%;
     }
 }
 
