@@ -67,6 +67,51 @@
         width: 80%;
     }
 }
+
+@media screen and (max-width:540px){
+    .paragraph {
+        font-size: 15px;
+    }
+    .fromHeading {
+       font-size: 27px;
+    }
+    .terms {
+      font-size: 11px;
+    }
+    .from1stRow input {
+        width: 100%;
+    }
+    #FirstName {
+        margin-right: 0px;
+    }
+    #LastName {
+
+        margin-bottom: 10px;
+    }
+    .singUpBtn{
+        margin: 10px auto;
+        display: inherit;
+    }
+    .day{
+        width: 69px;
+    }
+    .month{
+        width: 70px;
+    }
+    .year{
+        width: 75px;
+    }
+    .radio {
+        margin-right: 5px;
+    }
+    .fromHeading {
+        font-size: 30px;
+    }
+    .footerSection {
+       text-align: center;
+    }
+}
+
 @media screen and (max-width:426px){
     .subContainer {
         width: 90%;
@@ -84,58 +129,9 @@
     .from1stRow input {
         width: 48%;
     }
-    .fromHeading {
-        font-size: 30px;
-    }
-    .footerSection {
-       text-align: center;
-    }
+   
 
 }
 @media screen and (max-width:320px){
-    .paragraph {
-        font-size: 15px;
-    }
-    .fromHeading {
-       font-size: 27px;
-    }
-    .terms {
-      font-size: 11px;
-    }
-    .from1stRow input {
-
-        width: 100%;
     
-    }
-    #FirstName {
-
-        margin-right: 0px;
-    
-    }
-    #LastName {
-
-        margin-bottom: 10px;
-    
-    }
-    .singUpBtn{
-        margin: 10px auto;
-
-display: inherit;
-    }
-    .day{
-        width: 69px;
-    }
-    .month{
-        width: 70px;
-
-    }
-    .year{
-        width: 75px;
-
-    }
-    .radio {
-
-        margin-right: 5px;
-    
-    }
 }
